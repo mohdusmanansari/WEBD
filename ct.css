@@ -1,0 +1,250 @@
+/* b{
+    background-color: rgb(153, 165, 42);
+}
+#one{
+background-color: rgb(226, 43, 226);
+}
+.xz{
+    color: rgb(42, 165, 149);
+}
+a[href="http://google.com"]{
+    background-color: brown;
+}
+a[href*='zon']{
+    background-color: aqua;
+}
+a[href$='com']{
+    background-color: black;
+/* } */
+/* #age{
+    width: 100px;
+}
+#grade{
+    width: 100px;
+}
+#mail{
+    width: 200px;
+} * */
+/* body{
+    background-color:red ;
+} */
+   /* ol li:first-child{
+    background-color: aquamarine;
+} 
+ ol  li:nth-child(2){
+    background-color: blue;
+}
+#list li:nth-child(odd){
+    background-color: crimson;
+}
+#hr{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    transition: 1s;
+}
+#hr:hover{
+    background-color: black;
+    border-radius: 50px;
+    width: 76px;
+}
+progress :hover{
+background-color: firebrick;
+}
+img:hover{
+    width: 100px;
+} 
+#vhh{
+    height: 100vh;
+    width: 100vw;
+    background-color: darkgoldenrod;
+} */
+/* #outer{
+height: 200px;
+    width: 500px;
+    background-color: darkgreen;
+}
+ #inner{
+    height: 50%;
+    width: 100%;
+    background-color: mediumblue;
+} */
+
+/* li{
+    font-size: 30px;
+} */
+/* li{
+    font-size: 2rem;
+}
+html ka font size 16 hota he rem lagane se do guna ho jata he */
+/* li{
+    font-size: 2em;
+} */
+/* /* } em uske current parent ka double hota he  */
+
+/* div{
+    border: 20px double green;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+
+} */
+ /* div{
+    background-color: chocolate;
+    height: 300px;
+    width: 500px;
+    position:relative;
+    
+ }
+ #inner{
+    position: absolute;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+ }
+ span{
+    background-color: chartreuse;
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+ }
+ a{
+    font-size: 30px;
+    color: crimson;
+    text-decoration: none;
+    display: inline-block;
+ } */
+/* 
+ div{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+ }
+div:nth-of-type(1){
+    background-color: chartreuse;
+    position: fixed;
+}
+div:nth-of-type(2){
+    background-color: rgb(0, 238, 255);
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+div:nth-of-type(3){
+    background-color: rgb(255, 0, 140);
+    position: absolute;
+    top: 30px;
+    left: 300px;
+} */
+ /* #img{
+    height: 600px;
+    /* width: 700px;
+    background-color: aqua;
+    background-image: url(https://images.unsplash.com/photo-1552604617-eea98aa27234?q=80&w=1413&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: round 30px; 
+ } */
+  /* #main{ */
+    /* display: inline-block; */
+    /* height: 200px; */
+    /* width: 100%; */
+    /* border: solid red; */
+    /* position: relative; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* justify-content: baseline; */
+    /* justify-content: center; */
+    /* justify-content: first baseline */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  /* } */
+  /* #one{ */
+    /* display: inline-block; */
+    /* background-color: aqua; */
+    /* position: absolute; */
+    /* display: flex; */
+    /* height: 100px; */
+    /* width: 100px; */
+  /* } */
+  /* #two{
+    background-color: rgb(145, 255, 0);
+    /* position: absolute; */
+    /* display: flex; */
+    /* height: 100px; */
+    /* width: 100px; */
+    /* display: inline-block; */
+  /* } */
+  /* #three{ */
+    /* background-color: rgb(195, 0, 255); */
+    /* position: absolute; */
+    /* display: flex; */
+    /* height: 100px; */
+    /* width: 100px; */
+    /* display: inline-block; */
+  /* }   */
+
+
+  /* #main{ */
+    /* height: 600px; */
+    /* width: 700px; */
+    /* border: solid green  */
+    /* display: flex; */
+    /* display: inline-block; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: baseline; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: first baseline; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap ; */
+
+  /* } */
+  /* #one{ */
+    /* height: 100px;
+    width: 100px;
+    background-color:orange; */
+  /* } */
+  /* #two{
+    height: 100px;
+    width: 100px;
+    background-color: brown; */
+  /* } */
+  /* #three{ */
+    /* height: 100px;
+    width: 100px;
+    background-color: yellow;
+  } */ */
+  /* #main{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    transition: 3s;
+  }
+  #main:hover{
+    background-color: red;
+    border-radius: 50px;
+  } */
+   .ohk{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+   }
+   @media screen and(max-width:450px){
+    .ohk{
+        background-color: aqua;
+    }
+   }

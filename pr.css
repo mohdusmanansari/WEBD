@@ -1,0 +1,149 @@
+#nav{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(32, 149, 179);
+    position: relative;
+
+}
+.u{
+    margin-left: 85%;
+    padding-top: 5px;
+    font-size: 30px;
+    color: antiquewhite;
+    justify-content: space-between;
+    
+}
+.login{
+    height: 35px;
+    width: 97px;
+    background-color: transparent;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    margin-left: 90%;
+    margin-top: -33px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(145, 224, 235);
+}
+.main{
+    position: relative;
+    background-color: transparent;
+    height: 100%;
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 55px;
+
+
+}
+.image{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    background-color: transparent;
+    margin-top: -90px;
+    background-image: url("https://pizzaonline.dominos.co.in/static/assets/home_search.png");
+    background-position: center;
+    background-size: cover;
+}
+#radio{
+    margin-top: 60px;
+    
+}
+p{
+    font-size: 25px;
+    font-weight: 50;
+}
+
+input{
+    font-size: 25px;
+    font-weight: 30;
+    border: 10px;
+    padding: 7px;
+    
+}
+.button{
+        font-size: 25px;
+        font-weight: 50;
+        color:  rgb(29, 135, 221);
+
+}
+.lastnav{
+    height: 180px;
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+    background-color: rgba(7, 27, 56, 0.808);
+}
+#ds{
+    padding-top: -30x;
+    position: absolute;
+    width: 100%;
+    background-color: transparent; 
+    justify-content: space-between;
+    margin: -60px;
+    margin-left: 40px;
+
+}
+#ds a{
+    font-size: 25px;
+    font-weight: 200;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -20px;
+    color: rgba(103, 157, 245, 0.808);
+}
+.download{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -160px;
+}
+p{
+    color:rgba(103, 157, 245, 0.808) ;
+}
+.add{
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    background-color: transparent;
+    margin-left: 48.8%;
+    margin-top: -36.3%;
+    background-image: url( https://api.dominos.co.in/prod-olo-api/images/flashBanner/dominos_adaptation_desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ .logo i{
+    font-size: 30px;
+    color: rgb(49, 110, 202);
+    position: relative;
+}
+button{
+    padding: 10px;
+    background-color: green;
+    font-size: 25px;
+    justify-content: space-between;
+    border: 10px;
+    color: white;
+}
+
+.map i{
+    color: white;
+    font-size: 20x;
+    margin-left: 10px;
+}
+.map{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -40px;
+}
+#offers{
+    height: 250px;
+    width: 300px;
+    background-color: transparent;
+    margin-top: 25%;
+    margin-left: 10%;
+
+}

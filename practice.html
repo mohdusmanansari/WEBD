@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(simple-geometric-phone-5000-x-3000-lux96q3lyxwfkpzq.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 500px;
+        /* width: auto; */
+        z-index: 4;
+        perspective: 900px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+        background-color: rgb(58, 54, 54);
+        color: rgb(212, 57, 57);
+
+    
+    }
+    @media screen and (max-width:450px){
+        .nav{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            height: 600px;
+
+        }
+        .link{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            transform: translate(-100px);
+        }
+        .button{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            transform: translate(-140px);
+        }
+    }
+    a{
+        text-decoration: none;
+        color: red;
+        padding: 15px;
+    }
+    a:nth-of-type(1):hover{
+        font-size: 30px;
+        border: solid 3px red;
+    }
+    a:nth-of-type(2):hover{
+        font-size: 30px;
+        border: solid 3px red;
+    }
+    a:nth-of-type(3):hover{
+        font-size: 30px;
+        border: solid 3px red;
+    }
+    a:nth-of-type(4):hover{
+        font-size: 30px;
+        border: solid 3px red;
+    }
+    .link{
+        margin-left: 0px;
+        font-size: 25px;
+        
+    
+              
+    }
+    .logo{
+        display: flex;
+        margin-left: -140px;
+        font-size: 30px;
+        
+    }
+    .button{
+        margin-right: -160px;
+    
+    }
+    button{
+        padding: 20px;
+        /* border-radius: 30px; */
+        width: 200px;
+        font-size: 20px;
+        background-color:  rgb(212, 57, 57);
+        color: rgb(58, 54, 54);
+    }
+    button:hover{
+        height: 60px;
+        border-radius: 30px;
+    }
+    h1:hover{
+        transform: scaley(2);
+    }
+    .parent{
+        height: 250px;
+        width: 250px;
+        position: relative;
+        /* border: 3px solid white; */
+        margin-top: 50px;
+        margin-left: 20px;
+        transition: 3s;
+        transform-style: preserve-3d;
+        
+        
+        
+    }
+    .parent:hover{
+        transform: rotatey(-180deg);
+    }
+    #front{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color:  rgb(212, 57, 57);
+        z-index: 1;
+        backface-visibility: hidden;
+        /* border-radius: 130px; */
+        background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnprbXd5anBzajd6dXhjMWV4ZWM0OTF2dHNyd2piNGR3b3dycTVnNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fX5cZemSfX1cMZYuUJ/giphy.webp);
+        background-position: center;
+        background-size: cover;
+        
+    }
+    h1{
+        margin: 50px 50px auto;
+        font-size: 40px;
+    }
+    #back{ 
+        transform: rotatey(180deg);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: salmon;
+        /* border-radius: 130px; */
+        /* z-index: 1; */
+        /* backface-visibility: hidden; */
+        /* background-image: url(IMG_E6817.JPG); */
+        /* background-position: center; */
+        /* background-size: cover; */
+    }
+
+</style>
+<body>
+    
+        <img src="" alt="">
+    <nav>
+        <div class="nav">
+            <div class="logo"><h1> <i>Mo.Usman</i></h1></div>
+            <div class="link">
+                <a href="#">home</a>    
+                <a href="#menue">menue</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="button">
+                <button>Message</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="parent">
+            <div id="front">
+                <h1>About Usman...</h1>
+            </div>
+            <div id="back"> 
+                My name is mohammed usman ansari
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

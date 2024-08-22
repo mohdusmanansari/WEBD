@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">       
+    <meta name="viewport" content="width=nav, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #nav{
+            height: 300px;
+            width: 300px;
+            background-color: orange;
+            transition: 4s;
+        }
+        #nav:hover{
+            background-color: red;
+            border-radius: 50px;
+        } */
+         #nav{
+            border: solid 4px green;
+            height: 600px;
+            width: 100%;
+         }
+         #nav div{
+            height: 100px;
+            width: 100px;
+            /* background-color: aqua; */
+            transition: 3s;
+         }
+         #nav div:nth-of-type(1){
+            background-color: red;
+            transition-timing-function: ease-in-out;
+         }
+         #nav div:nth-of-type(2){
+            background-color: blue;
+            transition-timing-function: ease-out;
+         }
+         #nav div:nth-of-type(3){
+            background-color: orange;
+            transition-timing-function: ease-in;
+         }
+         #nav div:nth-of-type(4){
+            background-color: black;
+            transition-timing-function: linear;
+         }
+         #nav:hover .one{
+            margin-left: 1200px;
+            border-radius: 50px;
+
+         }
+         h1{
+             text-align: center; 
+         }
+         h1:hover{
+            /* transform: translate(400px); */
+            /* transform: scaley(2); size increase hojata he */
+            transform: rotate(180deg);
+         }
+         
+  
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="nav">
+            
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+            <div class="one"></div>
+
+            <h1>helloo hiii </h1>
+        </div>
+    </nav>
+</body>
+</html>
