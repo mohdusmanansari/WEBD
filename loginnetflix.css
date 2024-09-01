@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+#main{
+    height: 900px;
+    position: relative;
+    background-image: url(netflix-background-gs7hjuwvv2g0e9fj.webp);
+    background-position: center;
+    background-size: cover;
+}
+#logo{
+    /* padding: 10px; */
+    /* font-size: 20px; */
+    position: absolute;
+    /* background-color: aqua; */
+    margin: 40px 40px ;
+    height: 60px;
+    width: 200px;
+    background-image: url(png-transparent-netflix-logo-netflix-television-show-streaming-media-film-netflix-logo-television-text-trademark-thumbnail-removebg-preview.png); 
+    background-position: center;
+    background-size: cover;
+}
+#containt{
+    position: absolute;
+    height: 700px;
+    width: 400px;
+    background-color: rgb(14, 13, 13);
+    /* filter: blur(.5); */
+    opacity: .9;
+    margin: 110px 200px 300px 600px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+input{
+    height: 40px;
+    width: 360px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+button{
+    height: 50px;
+    width: 360px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(8, 8, 8, 0.959);
+    margin-top: 200px;
+    padding: 40px;
+    font-size: 20px;
+    color: #eee;
+    position: relative;
+}
+.footer a{
+    /* text-decoration: none; */
+    color: #eee;
+    
+}
+#a{
+    display: flex;
+    justify-content: space-evenly;
+}
+#option{
+    position: absolute;
+    display: flex;
+    margin-bottom: -900px;
+}

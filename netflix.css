@@ -1,0 +1,247 @@
+body{
+    height: 500%;
+    background-color: black;
+}
+#img{
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-image: url(netflix-background-gs7hjuwvv2g0e9fj.webp);
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    /* background-color: green; */
+}
+.logo{
+    margin-left: 180px;
+    margin-top: -20px;
+}
+.sidenav{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    height: 90px;
+    width: 400px;
+    /* background-color: chartreuse; */
+    margin: -130px 0 100px 850px;
+}
+select{
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(226, 160, 160);
+    margin: 20px;
+}
+.sidenav button{
+    font-size: 15px;
+
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(248, 19, 19, 0.808);
+    color: white;
+    margin: 15px;
+}
+.content{
+    height: 400px;
+    width: 50%;
+    position: absolute;
+    top: 65% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: brown; */
+    text-align: center;
+    color: white;
+}
+input{
+    height: 40px;
+    width: 360px;
+    padding: 10px;
+    background-color: rgb(58, 55, 55);
+    color: white;
+    opacity: .9;
+}
+.content button{
+    height: 70px;
+    width: 160px;
+    padding: 10px;
+    background-color: rgba(248, 19, 19, 0.808) ;
+    color: white;
+    font-size: 20px;
+}
+#trend{
+    margin-left: 60px;
+    margin-top: 40px;
+ }  
+#card{
+    height:300px ;
+    width: 1200px;
+    /* background-color: aqua; */
+    margin: 0px 40px 60px 60px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 300px;
+    grid-gap: 40px;
+    justify-content: space-between;
+}
+#card1{
+    background-color: red;
+    background-image: url(captain-jack-sparrow-movie-6nushkerfymedcip.webp);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    
+}
+#card1:hover{
+    height: 270px;
+    width: 320px;
+}
+#card2{
+    background-color: royalblue;
+    background-image: url(download\ \(1\).jfif);
+    background-position: center;
+    background-size: cover;
+}
+#card3{
+    background-color: rosybrown;
+    background-image: url(download.jfif);
+    background-position: center;
+    background-size: cover;
+}
+#card4{
+    background-color: hotpink;
+    background-image: url(images.jfif);
+    background-position: center;
+    background-size: cover;
+}
+#join{
+    height: 300px;
+    width: 1200px;
+    /* background-color: burlywood; */
+    margin: 0px 0px 0px 140px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 300px;
+    /* justify-content: space-between; */
+    grid-gap: 20px;
+    
+}
+#join1{
+    background: linear-gradient(rgb(71, 71, 116),rgb(219, 182, 216));
+    opacity: .9;
+    padding: 10px;
+    border-radius: 40px;
+    color: rgb(190, 190, 202);
+    
+}
+
+#join2{
+    /* background-color: lightblue; */
+    background: linear-gradient(rgb(71, 71, 116),rgb(219, 182, 216));
+    opacity: .9;
+    padding: 10px;
+    border-radius: 40px;
+    color: rgb(190, 190, 202);
+}
+#join3{
+    /* background-color: springgreen; */
+    background: linear-gradient(rgb(71, 71, 116),rgb(219, 182, 216));
+    opacity: .9;
+    padding: 10px;
+    border-radius: 40px;
+    color: rgb(190, 190, 202);
+}
+#join4{
+    /* background-color: orchid; */
+    background: linear-gradient(rgb(71, 71, 116),rgb(219, 182, 216));
+    opacity: .9;
+    padding: 10px;
+    border-radius: 40px;
+    color: rgb(190, 190, 202);
+}
+#question{
+    height: 650px;
+    width: 1200px;
+    /* background-color: aqua; */
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: 700px;
+    grid-template-rows:repeat(6,80px) ;
+    grid-gap: 10px;
+}
+#question1{
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    color: #eee;
+}
+#question2{
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    color: #eee;
+}
+#question3{
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    color: #eee;
+}
+#question4{
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    color: #eee;
+}
+#question5{
+    background-color: gray;
+    font-size: 20px;
+    padding: 10px;
+    color: #eee;
+}
+#question6{
+    background-color: gray;    
+    font-size: 20px;
+    padding: 10px;
+    color: #eee;
+}
+#footer{
+    height: 400px;
+    width: 1150px;
+    /* background-color: aqua; */
+    color: #eee;
+    margin-left: 59px;
+    padding: 20px;
+}
+#footer input{
+    width: 900px;
+}
+#footer button{
+    height: 65px;
+    width: 160px;
+    padding: 10px;
+    background-color: rgba(248, 19, 19, 0.808) ;
+    color: white;
+    font-size: 20px;
+}
+#lastnav{
+    height: 300px;
+    width: 1100px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    /* margin: -100px -50 50px 50px; */
+    margin-top: -200px;
+    margin-left: 80px;
+    color: #eee;
+}
+#lastnav a{
+    color: #eee;
+}

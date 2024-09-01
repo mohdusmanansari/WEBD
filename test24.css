@@ -1,0 +1,179 @@
+
+#body{
+    background-color: red;
+    height:500px;
+}
+#nav{
+    background-color: rgba(0, 0, 0, 0.856);
+    /* height: 200px; */
+    height: auto;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    color: white;
+    width: 100%;
+
+}
+
+h1{
+    padding-top: 30px;
+    color: white;
+}
+#nav #innav{
+    /* position: absolute; */
+    /* margin-left: 450px; */
+    /* margin: 20px auto; */
+    /* width: 400px; */
+    width: 98.5%;
+    background-color: rgba(99, 76, 76, 0.295);
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    border: 2px solid white;
+    padding: 7px;
+
+
+}
+#img{
+    height: 800px;
+    width: 100%;
+    background-color: aqua;
+    background-image: url(cool-hooded-black-cat-computer-sxcbxea9u0t2ylel.webp);
+    background-position: center;
+    background-size: cover;
+}
+#cardd{
+    /* display: flex;
+    flex-direction: row; */
+    /* height: ; */
+    height: 600px;
+    width: auto;
+    justify-content: space-evenly;
+    /* position: relative; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 450px 450px 450px;
+    gap: 10px;
+    margin-top: 25px;
+}
+#card1{
+    /* background-color: aqua; */
+    height: 500px;
+    width: 350px;
+    margin-top: 20px;
+    position: relative;
+    /* transition: 3s; */
+    /* transform-style: preserve-3d; */
+}
+#in1{
+    display: flex;
+    background-color: black;
+    height: 300px;
+    background-image: url(download.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: absolute; */
+}
+.content1{
+    background-color: rgba(0, 0, 0, 0.863);
+    position: absolute;
+    margin-top: 85%;
+    padding: 10px;
+    /* font-size: 20px; */
+    color: white;
+    height: 200px;
+
+}
+#card1:hover{
+    /* transform: rotate(180deg); */
+    height: 500px;
+    width: 400px;
+    
+}
+#card2:hover{
+    /* transform: rotate(180deg); */
+    height: 500px;
+    width: 400px;
+    
+}#card3:hover{
+    /* transform: rotate(180deg); */
+    height: 500px;
+    width: 400px;
+    
+}
+
+#card2{
+    /* background-color: aqua; */
+    height: 500px;
+    width: 350px;
+    margin-top: 20px;
+    position: relative;
+    /* transition: 3s; */
+    /* transform-style: preserve-3d; */
+}
+#in2{
+    display: flex;
+    background-color: black;
+    height: 300px;
+    background-image: url(download.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: absolute; */
+}
+.content2{
+    background-color: rgba(0, 0, 0, 0.863);
+    position: absolute;
+    margin-top: 85%;
+    padding: 10px;
+    /* font-size: 20px; */
+    color: white;
+    height: 200px;
+
+}
+#card3{
+    /* background-color: aqua; */
+    height: 500px;
+    width: 350px;
+    margin-top: 20px;
+    position: relative;
+    /* transition: 3s; */
+    /* transform-style: preserve-3d; */
+}
+#in3{
+    display: flex;
+    background-color: black;
+    height: 300px;
+    background-image: url(download.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: absolute; */
+}
+.content3{
+    background-color: rgba(0, 0, 0, 0.863);
+    position: absolute;
+    margin-top: 85%;
+    padding: 10px;
+    /* font-size: 20px; */
+    color: white;
+    height: 200px;
+
+}
+button{
+    padding: 10px;
+    width: 140px;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.096);
+    color: white;
+    padding: 20px;
+}
